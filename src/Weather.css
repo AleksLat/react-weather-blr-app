@@ -1,0 +1,13 @@
+.Weather{
+    background-image: url(belarus_protest_flag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ECE6E8;
+    max-width: 800px;
+    border:  1px solid #ECE6E8;
+    border-radius: 8px;
+    
+}
+h2{
+    font-size: 120px;
+}
