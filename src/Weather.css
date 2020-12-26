@@ -48,12 +48,12 @@ list-style: none;
     top: -34px;
     
 }
-.parameters {
-    text-align: right;
-}
+
+
 .mainImg{
 height: 80px;
-margin-left: 4px;
+margin-left: 20px;
 margin-top: 8px;
 display: inline-block;
+
 }

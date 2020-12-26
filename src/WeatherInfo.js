@@ -2,10 +2,11 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemp from "./WeatherTemp";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props){
     return  (
-        <div classname="WeatherInfo">
+        <div className="WeatherInfo">
             <h1>{props.data.city}</h1>
             <div className="row">
                 <div className="col-6">
@@ -20,10 +21,17 @@ export default function WeatherInfo(props){
            </ul>
                 </div>
                 <div className="col-6">
-                    <img src="src/busel.jpg"/>
-                    <a href="https://bysol.org/english" target="_blank">
-                    Donate now
-                    </a>
+                    <ul className="donation">
+                        <li className="belarus">#STAND WITH BELARUS</li>
+                       
+                        <li>
+                        <a className="btn btn-primary btn-light btn-sm donation" 
+                            href="https://bysol.org/english" 
+                            role="button"
+                            target="_blank"
+                            >How To Help</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
@@ -32,17 +40,17 @@ export default function WeatherInfo(props){
                    <WeatherIcon code={props.data.icon}
                    alt={props.data.description}/>
                </div>
-               <div className="col-6 parameters">
-                   <ul>
+               <div className="col-8 parameters ">
+                   <ul className="boldText">
                        <li>Humidity</li>
                        <li>Pressure</li>
                        <li>Wind</li>
                    </ul>
                </div>
-               <div className="col-4">
+               <div className="col-2 paramValues">
                    <ul>
                        <li>{props.data.humidity}%</li>
-                       <li>{props.data.pressure}</li>
+                       <li>{props.data.pressure}hPa</li>
                        <li>{props.data.wind}km/hr</li>
                    </ul>
                </div>

@@ -1,0 +1,30 @@
+.donation {
+    text-align: center;
+    display: block;
+    margin: 10px 100px 10px;
+    width: 100px;
+    font-weight: 200;
+    
+}
+
+.belarus{
+    width: 300px;
+    padding-right: 5px;
+}
+
+.parameters{
+    
+    text-align: right;
+    display: block;
+    margin: 0px 0px 0px;
+    font-weight: 500;
+   
+}
+
+.paramValues{
+    
+    margin: 0px 0px 0px;
+}
+.boldText{
+    font-weight: 300 ;
+}
