@@ -10,12 +10,14 @@ export default function App() {
       <footer>
         This project was coded by {" "}
         <a href="https://www.linkedin.com/in/aleks-lat/"
-        target="_blank">
+        target="_blank"
+        rel="noreferrer">
           Aleks Lat{" "}
         </a>
          and is{" "}
       <a href="https://github.com/AleksLat/react-weather-blr-app"
-      target="_blank">  
+      target="_blank"
+      rel="noreferrer">  
       open-sourced on GitHub
       </a>
       </footer>

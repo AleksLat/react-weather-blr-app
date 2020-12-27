@@ -1,4 +1,4 @@
-import react from "react";
+
 import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecastPreview.css";
 

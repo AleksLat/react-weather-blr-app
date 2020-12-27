@@ -29,6 +29,7 @@ export default function WeatherInfo(props){
                             href="https://bysol.org/english" 
                             role="button"
                             target="_blank"
+                            rel="noreferrer"
                             >How To Help</a>
                         </li>
                     </ul>
